@@ -1,0 +1,209 @@
+{
+	"Streams/participating": {
+		"type": "Streams/participating",
+		"title": "Messages about joining/leaving streams",
+		"icon": "",
+		"readLevel": 0,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/invited": {
+		"type": "Streams/invited",
+		"title": "Invited",
+		"icon": "",
+		"readLevel": 0,
+		"writeLevel": 20,
+		"adminLevel": 0,
+		"subscribe": {
+			"rule": {
+				"deliver": {
+					"to": "invited",
+					"filter": "{\"types\":[\"Streams/invite\"],\"notifications\":0}"
+				}
+			}
+		}
+	},
+	"Streams/user/icon": {
+		"type": "Streams/image",
+		"title": "Icon",
+		"icon": "Streams/image",
+		"platforms": {"facebook": "pic"}
+	},
+	"Streams/user/username": {
+		"type": "Streams/text/name",
+		"title": "Username",
+		"icon": "",
+		"platforms": {"facebook": "username"}
+	},
+	"Streams/user/firstName": {
+		"type": "Streams/text/name",
+		"title": "First name",
+		"icon": "",
+		"platforms": {"facebook": "first_name"}
+	},
+	"Streams/user/middleName": {
+		"type": "Streams/text/name",
+		"title": "Middle name",
+		"icon": "",
+		"platforms": {"facebook": "middle_name"}
+	},	
+	"Streams/user/lastName": {
+		"type": "Streams/text/name",
+		"title": "Last name",
+		"icon": "",
+		"platforms": {"facebook": "last_name"}
+	},
+	"Streams/user/emailAddress": {
+		"type": "Streams/text/emailAddress",
+		"title": "Email Address",
+		"icon": "",
+		"readLevel": 0,
+		"writeLevel": 0,
+		"adminLevel": 0,
+		"platforms": {"facebook": "email"}
+	},
+	"Streams/user/mobileNumber": {
+		"type": "Streams/text/mobileNumber",
+		"title": "Mobile Number",
+		"icon": "",
+		"readLevel": 0,
+		"writeLevel": 0,
+		"adminLevel": 0
+	},
+	"Streams/user/status": {
+		"type": "Streams/text/small",
+		"title": "Status",
+		"icon": ""
+	},	
+	"Streams/user/description": {
+		"type": "Streams/text/small",
+		"title": "Description",
+		"icon": "",
+		"platforms": {"facebook": "profile_blurb"}
+	},
+	"Streams/user/presence": {
+		"type": "Streams/enum/presence",
+		"title": "Presence",
+		"icon": ""
+	},
+	"Streams/contacts": {
+		"type": "Streams/resource",
+		"title": "Contacts",
+		"icon": ""
+	},
+	"Streams/labels": {
+		"type": "Streams/resource",
+		"title": "Labels",
+		"icon": ""
+	},
+	"Streams/user/interests": {
+		"type": "Streams/category",
+		"title": "Interests",
+		"icon": ""
+	},
+	"Streams/user/website": {
+		"type": "Streams/text/url",
+		"title": "Website",
+		"icon": ""
+	},
+	"Streams/user/facebook": {
+		"type": "Streams/text/url",
+		"title": "Facebook Profile",
+		"icon": "",
+		"platforms": {"facebook": "link"}
+	},
+	"Streams/user/facebook/uid": {
+		"type": "Streams/uid",
+		"title": "My facebook uid",
+		"icon": "",
+		"platforms": {"facebook": "id", "twitter": "id"}
+	},
+	"Streams/user/timezone": {
+		"type": "Streams/number/timezone",
+		"title": "Time zone",
+		"icon": "",
+		"platforms": {"facebook": "timezone"}
+	},
+	"Streams/user/gender": {
+		"type": "Streams/enum/gender",
+		"title": "Gender",
+		"icon": "",
+		"platforms": {"facebook": "gender"}
+	},
+	"Streams/user/height": {
+		"type": "Streams/date/height",
+		"title": "Height",
+		"icon": ""
+	},
+	"Streams/user/birthday": {
+		"type": "Streams/date/birthday",
+		"title": "Birthday",
+		"icon": "",
+		"platforms": {"facebook": "birthday"}
+	},
+	"Streams/user/age": {
+		"type": "Streams/number/age",
+		"title": "Age",
+		"icon": ""
+	},
+	"Streams/user/political": {
+		"type": "Streams/text/small",
+		"title": "Political views",
+		"icon": ""
+	},	
+	"Streams/user/hs_info": {
+		"type": "Streams/array/hs_info",
+		"title": "High school",
+		"icon": ""
+	},	
+	"Streams/user/education_history": {
+		"type": "Streams/array/education_history",
+		"title": "Education history",
+		"icon": ""
+	},	
+	"Streams/user/work_history": {
+		"type": "Streams/array/work_history",
+		"title": "Work history",
+		"icon": ""
+	},	
+	"Streams/user/about_me": {
+		"type": "Streams/text/multiline",
+		"title": "Bio",
+		"icon": ""
+	},	
+	"Streams/user/activities": {
+		"type": "Streams/category",
+		"title": "Activities",
+		"icon": ""
+	},	
+	"Streams/user/interests": {
+		"type": "Streams/category",
+		"title": "Interests",
+		"icon": ""
+	},	
+	"Streams/user/music": {
+		"type": "Streams/category",
+		"title": "Music",
+		"icon": ""
+	},	
+	"Streams/user/tv": {
+		"type": "Streams/category",
+		"title": "TV Shows",
+		"icon": ""
+	},	
+	"Streams/user/movies": {
+		"type": "Streams/category",
+		"title": "Movies",
+		"icon": ""
+	},	
+	"Streams/user/books": {
+		"type": "Streams/category",
+		"title": "Books",
+		"icon": ""
+	},	
+	"Streams/user/quotes": {
+		"type": "Streams/category",
+		"title": "Quotes",
+		"icon": ""
+	}
+}
